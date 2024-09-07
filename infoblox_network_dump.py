@@ -20,7 +20,7 @@ comments = []
 first_ip = []
 last_ip = []
 
-# Attempt to make a connection to Infoblox.
+# Attempt to make a connection to Infoblox. Change 3
 try:
     response = requests.get(base_url + 'network?_return_type=json&_max_results=99999', auth=(username, password), verify=False).json()
 except:
