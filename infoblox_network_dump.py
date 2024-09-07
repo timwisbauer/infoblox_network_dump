@@ -14,7 +14,7 @@ username = ''
 password = getpass.getpass()
 base_url = 'https://{}/wapi/v1.0/'.format(infoblox_ip)
 
-# Instantiate the lists.
+# Instantiate the lists. Change 2
 networks = []
 comments = []
 first_ip = []
